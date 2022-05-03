@@ -285,6 +285,10 @@ h1{
         padding-top: 4rem;
     }  
     
+    .navbar{
+        height: 100px;
+    }
+
     h1{
         font-size: 3.5rem;
         height: 10rem;
@@ -307,15 +311,17 @@ h1{
         }
     }
 
-    @media (max-width: 415px) {
+    @media (max-width: 480px) {
 
         .navbar{
-            height: 75px;
+            height: 50px;
+            align-items: flex-start;
             }
 
         .imagen {
-            width: 10px;
+            width: auto;
             padding-left: 10px;
+            font-size: 150rem;
         }
 
         .info {
